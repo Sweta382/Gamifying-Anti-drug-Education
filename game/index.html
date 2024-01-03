@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drug-Free Hero</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Drug-Free Hero</h1>
+    <p>Make the right choices to be a drug-free hero!</p>
+    <div class="game-area">
+      <div class="options">
+        <button onclick="chooseHealthy()">Choose Healthy Food</button>
+        <button onclick="avoidDrugs()">Drugs</button>
+      </div>
+      <div class="result">
+        <p id="resultText">Start the game!</p>
+      </div>
+      <div class="stats">
+        <div class="meter">
+          <div class="energy-bar" id="energyBar"></div>
+          <span class="meter-label">Energy</span>
+        </div>
+        <div class="meter">
+          <div class="stamina-bar" id="staminaBar"></div>
+          <span class="meter-label">Stamina</span>
+        </div>
+      </div>
+      <div class="level-info">
+        <p id="levelText">Level: 1</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
