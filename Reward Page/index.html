@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Coins Tracker</title>
+</head>
+<body>
+
+    <header>
+        <h1>Coins Tracker</h1>
+        <p>Your Journey to Rewards</p>
+    </header>
+
+    <section id="coins-section">
+        <h2>Coins Earned: <span id="coins-counter">0</span></h2>
+        <button id="earn-coins-btn" onclick="earnCoins()">Earn Coins</button>
+    </section>
+
+    <section id="reward-section">
+        <h2>Claim Your Rewards</h2>
+        <p>Reach 50 coins to unlock the first reward!</p>
+        <button id="claim-reward-btn" onclick="claimReward()" disabled>Claim Reward</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coins Tracker | Follow us on <a href="#" target="_blank">Twitter</a> and <a href="#" target="_blank">Instagram</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
